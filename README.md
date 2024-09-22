@@ -1,16 +1,23 @@
-# freeze_api
+# Flutter Project Using Freezed for Immutable Models
 
-A new Flutter project.
+This project demonstrates the use of the `freezed` package for generating immutable data models in a Flutter application.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Freezed Model Implementation](#freezed-model-implementation)
+- [Dependencies](#dependencies)
+- [Building the Freezed Model](#building-the-freezed-model)
+- [Example Usage](#example-usage)
+- [License](#license)
+
+## Introduction
+
+Freezed provides a simple and effective way to create immutable models and union types in Flutter. It ensures type safety and provides utility methods such as `copyWith`, `toString`, `==`, and `hashCode` without the need for manual implementation.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, clone the repository and run the following command to install dependencies:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
